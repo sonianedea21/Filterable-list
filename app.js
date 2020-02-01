@@ -1,10 +1,4 @@
-/*
-Ideas for improvement: 
-- sa citeasca search-ul doar dupa literele consecutive (ex acum gaseste Allan cand scrii an)
-- design 
-*/
-
-// Get inoput element
+// Get inpput element
 let filterInput = document.getElementById('filterInput');
 
 // Add event listener
@@ -20,7 +14,7 @@ function filterNames(){
 	// get li-s from ul 
 	let li = ul.querySelectorAll('li.collection-item');
 	
-	// loop through colletion-item li-s
+	// loop through collection-item li-s
 	for(let i=0; i < li.length; i++){
 		let a = li[i].getElementsByTagName('a')[0];
 		
